@@ -1,1 +1,19 @@
+.env# secrets
 .env
+
+# virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# uv
+.uv/
+
+# GrindSync state
+state.json
+
+# OS
+.DS_Store
