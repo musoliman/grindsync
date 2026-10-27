@@ -27,7 +27,6 @@ def get_recent_submissions(username: str, session_cookie: str):
         "Content-Type": "application/json",
         "Referer": "https://leetcode.com"
 
-
     }        
 
 
