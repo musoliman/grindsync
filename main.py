@@ -5,7 +5,7 @@ from grindsync.github_sync import commit_solution
 from grindsync.obsidian_sync import append_to_sheet
 from grindsync.config import LC_SESSION_COOKIE, LC_USERNAME
 
-STATE_FILE = "state.json"
+STATE_FILE = os.getenv("STATE_FILE", "state.json")
 
 
 def load_state() -> set:

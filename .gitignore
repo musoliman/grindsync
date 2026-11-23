@@ -17,3 +17,5 @@ state.json
 
 # OS
 .DS_Store
+# Docker state
+data/
